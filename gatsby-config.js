@@ -1,11 +1,24 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Design portfolio`,
+    description: `Design portfolio that represents the work and skills of a talented designer, Marion Murvine`,
+    author: `@marinagoto`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        data: `$is-dev: ${true};`,
+        includePaths: [
+          './node_modules/normalize-scss/sass',
+          './node_modules/sass-mq',
+          './node_modules/foundation-sites/scss',
+        ],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -15,20 +28,44 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
+    `gatsby-plugin-typescript`,
+   /* {
+      resolve: 'gatsby-plugin-web-font-loader',
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        custom: {
+          families: [
+            '__font_goes_here__',
+          ],
+          urls: ['/fonts/fonts.css']
+        }
+      }
+    },*/
+    {
+      resolve: `gatsby-plugin-force-file-loader`,
+      options: {
+        rules: [
+          'fonts', /* Matches Gatsby default rules for fonts */
+          'images', /* Matches Gatsby default rules for images */
+          'media', /* Matches Gatsby default rules for media (video/audio) */
+        ],
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+   /* {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: './src/assets/img/favicon.png'
+      }
+    },*/
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          "styles": path.resolve(__dirname, 'src/styles'),
+          "assets": path.resolve(__dirname, 'src/assets'),
+          "components": path.resolve(__dirname, 'src/components'),
+        },
+        extensions: []
+      }
+    },
   ],
-}
+};

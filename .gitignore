@@ -58,6 +58,8 @@ typings/
 .cache/
 public
 
+.firebase
+
 # Mac files
 .DS_Store
 
@@ -67,3 +69,7 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+# Editors
+.idea
+package-lock.json
+
