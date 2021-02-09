@@ -1,12 +1,18 @@
+@import '../../styles/utils';
+
 .header {
   position: absolute;
   z-index: 9;
   margin: 0 auto;
   padding: 3rem;
+
+  @include medium {
+    padding: 2rem;
+  }
 }
 .link {
-  font-family: "IBM Plex Mono", sans-serif;
+  font-family: $fontFamily;
   font-size: 1rem;
   font-weight: lighter;
-  color: #F5F5F5;
+  color: $textColor;
 }

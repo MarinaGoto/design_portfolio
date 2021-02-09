@@ -1,16 +1,18 @@
+@import '../../styles/utils';
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background-color: #000000;
+  background-color: $primaryBackgroundColor;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 main {
-  font-family: "IBM Plex Mono", sans-serif;
-  color: #F5F5F5;
+  font-family: $fontFamily;
+  color: $textColor;
 }
 article,
 aside,

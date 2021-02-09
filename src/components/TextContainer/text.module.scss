@@ -1,4 +1,11 @@
+@import '../../styles/utils';
+
 .textContainer{
   padding: 10rem 3rem;
   max-width: 50%;
+
+  @include medium {
+    padding: 4rem 2rem;
+    max-width: unset;
+  }
 }

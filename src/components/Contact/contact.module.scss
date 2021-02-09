@@ -1,0 +1,24 @@
+@import '../../styles/utils';
+
+.contactBox  {
+  padding: 3rem;
+
+  @include medium {
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.contactBox a {
+  color: $textColor;
+  text-decoration: none;
+  padding-right: 2rem;
+
+
+  @include medium {
+    padding-top: 1rem;
+  }
+}
+
