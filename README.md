@@ -1,9 +1,9 @@
-# Design portfolio
+# Personal portfolio
 
-Design portfolio that represents the work and skills of a talented designer, Marion Murvine.
+Personal digital space that represents my work and values.
 
 ## Getting Started
 
-- Pull repo: `git@github.com:MarinaGoto/portfolio_designer.git`
+- Pull repo: `git@github.com:MarinaGoto/portfolio_dev.git`
 - Install packages: `yarn` 
 - Run: `yarn dev` 

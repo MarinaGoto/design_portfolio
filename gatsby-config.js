@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
-    title: `Design portfolio`,
-    description: `Design portfolio that represents the work and skills of a talented designer, Marion Murvine`,
+    title: `developer portfolio`,
+    description: `Marina is a frontend developer based in Oslo.`,
     author: `@marinagoto`,
   },
   plugins: [
@@ -50,12 +50,12 @@ module.exports = {
         ],
       },
     },
-   /* {
+    {
       resolve: `gatsby-plugin-favicon`,
       options: {
-        logo: './src/assets/img/favicon.png'
+        logo: './src/images/favicon.png'
       }
-    },*/
+    },
     {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
