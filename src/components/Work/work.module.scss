@@ -1,0 +1,44 @@
+@import '../../styles/utils';
+
+.work {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3rem;
+  min-height: 100vh;
+
+  a {
+    text-transform: uppercase;
+    color: $textColor;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+
+  @include medium {
+    flex-direction: column;
+    padding: 4rem 2rem;
+  }
+}
+
+.projectBox {
+  padding-top: 2rem;
+}
+
+.listWork {
+
+  @include medium {
+    order: 2;
+  }
+}
+
+.imgWrapper {
+  width: 50vw;
+
+  @include medium {
+    order: 1;
+    width: unset;
+  }
+}

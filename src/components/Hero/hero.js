@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import Img from "gatsby-image/withIEPolyfill"
 import styles from "./hero.module.scss"
 import TextContainer from '../TextContainer/text';
 
