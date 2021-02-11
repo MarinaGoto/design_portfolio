@@ -17,7 +17,7 @@
     "include": ["src"],
     "paths": {
       "components": ["./components"],
-      "assets": ["./assets"],
+      "images": ["./images"],
       "layouts": ["./layouts"],
       "types": ["./types"],
       "lib": ["./lib"]

@@ -55,8 +55,8 @@ const Work = () => {
       <div className={styles.listWork}>
         <p>selected projects</p>
         {projects.map((project, index) => (
-          <div className={styles.projectBox}>
-            <a key={index} href={project.link}>
+          <div key={index}  className={styles.projectBox}>
+            <a href={project.link}>
               0{index + 1} {project.name}
             </a>
             <p>tools: {project.tools} <br/> {project.contributor}</p>

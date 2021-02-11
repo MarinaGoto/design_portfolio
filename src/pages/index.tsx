@@ -9,7 +9,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="mari goto" description={"Marina is a frontend developer based in Oslo."} />
+    <SEO
+      title="mari goto"
+      description={"Marina is a frontend developer based in Oslo."}
+    />
     <Hero />
     <Work />
     <Value />
