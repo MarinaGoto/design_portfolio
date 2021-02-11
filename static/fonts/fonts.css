@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-Bold.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-ExtraLightItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-Medium.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-Thin.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-Regular.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-SemiBoldItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-SemiBold.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-ThinItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-LightItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-ExtraBold.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-ExtraLight.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-Light.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-BoldItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IBMPlexMono';
+    src: url('./IBMPlexMono/woff2/IBMPlexMono-MediumItalic.woff2') format('woff2'),
+    url('./IBMPlexMono/woff/IBMPlexMono-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}

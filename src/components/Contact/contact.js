@@ -32,6 +32,7 @@ const Contact = () => {
           {contact.source}
         </a>
       ))}
+      <p className={styles.creds}>created by myself. photos by  <a href={'https://www.instagram.com/cocainym/'}>jim lafleur</a> </p>
       </div>
   )
 };

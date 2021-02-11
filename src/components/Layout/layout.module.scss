@@ -10,6 +10,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 main {
   font-family: $fontFamily;
   color: $textColor;
@@ -45,9 +46,15 @@ progress {
 template {
   display: none;
 }
+
+
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+}
+a::selection {
+  background: $textColor;
+  color: $primaryBackgroundColor;
 }
 a:active,
 a:hover {
@@ -391,6 +398,10 @@ p {
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
+}
+p::selection {
+  background: $textColor;
+  color: $primaryBackgroundColor;
 }
 figure {
   margin-left: 0;

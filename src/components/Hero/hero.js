@@ -1,8 +1,8 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from 'gatsby';
 import Img from "gatsby-image/withIEPolyfill"
-import styles from "./hero.module.scss"
 import TextContainer from '../TextContainer/text';
+import { BrowserRouter as Router, Link } from 'react-router-dom';
 
 const intro = [
   'Hi, happy to see you here in the digital space I\'ve created. I\'m here to tell you about my passion for creating a delightful user experience and building products.\n'
@@ -31,7 +31,7 @@ const Hero = () => {
   `);
 
   return (
-    <div className={styles.imgWrapper}>
+    <>
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
         objectFit="contain"
@@ -39,7 +39,10 @@ const Hero = () => {
         alt="Photo of a silhouette"
       />
       <TextContainer paragraphs={intro}/>
-      </div>
+  {/*    <Router>
+        <Link to=" ../../docs/CV_MarinaGotovkina.pdf" target="_blank" download>Download my resume</Link>
+      </Router>*/}
+    </>
   )
 };
 
