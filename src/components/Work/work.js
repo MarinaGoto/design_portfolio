@@ -14,7 +14,7 @@ const projects = [
     name: 'coop poster-making tool',
     link: 'http://coop-valget.lowercase.no/',
     tools: 'Canvas, React, VanillaJS',
-    contributor: 'single contributor',
+    contributor: 'single contributor (password on request)',
   },
   {
     name: 'sanity website',
@@ -26,7 +26,7 @@ const projects = [
     name: 'women in tech summit website',
     link: 'https://summit2020.witoslo.com/',
     tools: 'VanillaJS',
-    contributor: 'single contributors',
+    contributor: 'single contributor',
   },
   {
     name: 'smart boliganalyse',
