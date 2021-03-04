@@ -21,7 +21,7 @@ const Hero = () => {
     query {
       placeholderImage: file(relativePath: { eq: "shadow_mari.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 3080, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }

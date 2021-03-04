@@ -1,7 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image/withIEPolyfill"
-import styles from "./value.module.scss"
 import TextContainer from '../TextContainer/text';
 
 
@@ -14,7 +13,7 @@ const Value = () => {
     query {
       placeholderImage: file(relativePath: { eq: "magazin.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 3080, quality: 100) {
             ...GatsbyImageSharpFluid
           }
         }
